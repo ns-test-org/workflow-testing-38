@@ -78,9 +78,15 @@ export default function Calculator() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center p-4">
-      <div className="bg-white rounded-2xl shadow-2xl p-6 w-full max-w-sm">
-        <h1 className="text-2xl font-bold text-center text-gray-800 mb-6">Calculator 2</h1>
+    <div className="min-h-screen bg-gray-100">
+      {/* New Header */}
+      <header className="bg-blue-600 text-white py-4 px-6 shadow-lg">
+        <h1 className="text-xl font-bold text-center">remix-workflow-38-05</h1>
+      </header>
+      
+      <div className="flex items-center justify-center p-4 pt-8">
+        <div className="bg-white rounded-2xl shadow-2xl p-6 w-full max-w-sm">
+          <h1 className="text-2xl font-bold text-center text-gray-800 mb-6">Calculator 2</h1>
         
         {/* Display */}
         <div className="bg-gray-900 rounded-lg p-4 mb-4">
@@ -207,5 +213,7 @@ export default function Calculator() {
     </div>
   );
 }
+
+
 
 
